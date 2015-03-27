@@ -1,0 +1,80 @@
+{
+	"tpl": [
+		{
+			"logo"	:	"images/TPL3-Logo.png",
+			"headTitle"	:	"Exterro TPL Scorer"
+		},
+	],
+	
+	"menu"	:[
+		{
+			"MENU"	:	"Home",
+			"URL"	:	"#"
+		},
+		{
+			"MENU"	:	"Add Players",
+			"URL"	:	"#"
+		},
+		{
+			"MENU"	:	"Choose Playing 11 squad",
+			"URL"	:	"#"
+		},
+		{
+			"MENU"	:	"Create Match",
+			"URL"	:	"#"
+		},
+		{
+			"MENU"	:	"Choose Match for live score",
+			"URL"	:	"#"
+		},
+		{
+			"MENU"	:	"Detail score",
+			"URL"	:	"#"
+		},
+		{
+			"MENU"	:	"View score",
+			"URL"	:	"#"
+		},
+	],
+	
+	"team" : [
+		{
+			"NAME"	: "Exterro",
+			"ID"	: "T1"
+		},
+		{
+			"NAME"	: "DG Tech",
+			"ID"	: "T2"
+		},
+		{
+			"NAME"	: "Payoda",
+			"ID"	: "T3"
+		},
+		{
+			"NAME"	: "Bosch",
+			"ID"	: "T4"
+		},
+		{
+			"NAME"	: "Vision Net",
+			"ID"	: "T5"
+		},
+		{
+			"NAME"	: "KavinEngg",
+			"ID"	: "T6"
+		},
+		{
+			"NAME"	: "HCL",
+			"ID"	: "T7"
+		},
+		{
+			"NAME"	: "Infosys",
+			"ID"	: "T8"
+		},
+		{
+			"NAME"	: "CTS",
+			"ID"	: "T9"
+		}
+		
+	]
+	
+}

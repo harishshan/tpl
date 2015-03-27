@@ -1,0 +1,161 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exterro TPL</title>
+<meta name="viewport" content="initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<!-- JavaScript -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+	<div class="main_form">
+		<div class="container">
+			<div class="hole_div">
+				<div class="header">
+					<div class="header_heading">
+						<span class="logo"></span>
+						<span class="header_title"></span>
+					</div>
+				</div>
+				<div class="menu_container">
+					<div class="menu">
+						<ul>
+						</ul>
+					</div>
+				</div>
+				<form autocomplete="off" enctype="multipart/form-data" method="post" id="form"  name="form">
+				<div class="score_form">
+					<div class="form_container">
+						<div class="match_detail">
+							<label class="mth_label">Match ID</label>
+							<select id="sel_id" name="match_id">
+							  <option value="">--Select--</option>
+							</select>
+							
+						</div>
+						<div class="team_a">
+							<label class="mth_label edt_tma">Team A</label>
+							<input id="team_a_name" name="team_a_name" class="team_name" type="text" value="" readonly/>
+							<input class="radio_inngs" type="radio" id="radio_team_a" name="innings" value="">Batting
+						</div>
+					</div>
+					<div class="form_container">
+						<div class="match_detail">
+							<label class="mth_label edt_toss">Toss</label>
+							<select id="toss_team" class="toss_team" name="toss_team">
+							  <option value="">--Select--</option>
+							</select>
+							<!--<input id="toss_descrip" class="toss_details" type="text" value=""/>-->
+						</div>
+						<div class="team_b">
+							<label class="mth_label">Team B</label>
+							<input id="team_b_name" name="team_b_name" class="team_name" type="text" value="" readonly/>
+							<input class="radio_inngs" type="radio" id="radio_team_b" name="innings" value="">Batting
+						</div>
+					</div>
+					<div class="form_container">
+						<div class="match_detail">
+							<label class="mth_label">Status</label>
+							<input id="match_status" class="status_details" type="text" value=""/>
+					
+						</div>
+						<div class="innings_details">
+							<label class="mth_label edt_inns">Innings</label>
+							<input class="radio_inngs" type="radio" name="innings_status" value="First Batting">1
+							<input class="radio_inngs" type="radio" name="innings_status" value="Second Batting">2
+							
+						</div>
+						<button class="start_btn">Start Innings</button>
+					</div>
+					
+				</div>
+				</form>
+				<form autocomplete="off" enctype="multipart/form-data" method="post" id="form1"  name="form1">
+				<div class="scorecard">
+						<div class="score_container">
+						<div class="score_container_bg">
+							<div class="score_div">
+								<div class="score_detail edt_dv1">
+									<label class="mth_label">Wickets</label>
+									<input id="wickt_detl" name="wickt_detl" class="wickets_details" type="text" value="0"/>
+									<input id="wicket_cnt" class="count_btn" type="button" value="+1"/>
+								</div>
+							</div>
+							<div class="score_div">
+								<div class="score_detail edt_dv2">
+									<label class="mth_label">Team Score</label>
+									<input id="team_scr_cnt" name="team_scr_cnt" class="teamscore_details" type="text" value="0"/>
+									<span  class="success" style="display:none"> Score Updated!</span>
+									<span class="error" style="display:none"> Please Enter Match Id And Teams </span>
+								</div>
+							</div>
+							<div class="score_div">
+								<div class="score_detail edt_dv3">
+									<label class="extr_label">Extras</label>
+								</div>
+								<div class="extra_container edt_dv4">
+									<div class="team_extr edt_dv5">
+										<label class="mth_label">Team</label>
+										<input id="team_ext" name="team_ext" class="team_extra" type="text" value="0"/>
+										<input id="team_ext_cnt" class="count_btn" type="button" value="+1"/>
+									</div>	
+									<div class="bowler_extr edt_dv6">
+										<label class="mth_label">Bowlers</label>
+										<input id="bwl_ext" name="bwl_ext" class="team_extra" type="text" value="0"/>
+										<input id="bwl_ext_cnt" class="count_btn" type="button" value="+1"/>
+									</div>
+								</div>
+							</div>
+							<div class="score_div edt_dv7">
+								<div class="score_detail edt_dv8">
+									<label class="extr_label">Overs</label>
+								</div>
+								<div class="extra_container ">
+									<div class="team_extr edt_dv9">
+										<label class="mth_label">Overs</label>
+										<input id="over_detl" name="over_detl" class="team_extra" type="text" value="0"/>
+										<!--<input id="over_cnt" class="count_btn" type="button" value="+1"/>-->
+									</div>	
+									<div class="bowler_extr edt_dv10">
+										<label class="mth_label">Balls</label>
+										<input id="balls_delt" name="balls_delt" class="team_extra" type="text" value="0"/>
+										<input id="ball_cnt" class="count_btn" type="button" value="+1"/>
+									</div>
+								</div>
+							</div>
+							<div class="score_detail">
+								<div class="score_circle">
+									<label class="scores_label">Scores</label>
+								</div>
+							</div>
+							<div class="score_detail edt_dv11">
+								<div class="count_circle_score">
+											<ul>
+												<li id="scr_1">1</li>
+												<li id="scr_2">2</li>
+												<li id="scr_3">3</li>
+												<li id="scr_4">4</li>
+												<li id="scr_6">6</li>
+												<li id="btn_li"><button class="update_btn" type="submit">Update</button></li>
+											</ul>
+								</div>
+								
+							</div>
+							<div style="margin:0 auto;width:70px"><input class="end_inng_btn" value="End Innings"></div>
+						</div>
+						</div>
+				</div>
+				</form>
+			</div>
+		</div>
+		<div class="footer">
+		<span class="footer_logo"><img src="images/tpl3-logo-color.svg"></span>
+		<span class="copy_ryt">Copyright ECC Team </span>
+		</div>
+	</div>
+</body>
+
+</html> 

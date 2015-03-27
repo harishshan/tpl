@@ -1,0 +1,878 @@
+body {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.main_form{
+	width:100%;
+	float:left;
+	background:url("../images/tpl3bg.jpg") repeat scroll 50% center rgba(0, 0, 0, 0);
+}
+.container{
+	width:1280px;
+	margin:0 auto;
+}
+.header {
+     background: none repeat scroll 0 0 rgba(25, 126, 120, 0.33);
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    color: #ffffff;
+    float: left;
+    padding: 25px;
+    text-shadow: 2px 3px #000000;
+    width: 96%;
+}
+.header_title {
+    margin: 0;
+    padding: 0;
+}
+.header_heading {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu_container{
+	/*border-bottom: 2px solid #63a3d7;
+    border-top: 2px solid rgba(50, 50, 50, 0.66);*/
+    float: left;
+    padding: 15px 0;
+    width: 100%;
+}
+.menu {
+    display: block;
+    margin:0 auto;
+    width: 890px;
+}
+.menu li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    box-shadow: 0 0 7px 1px #dadada inset;
+    display: block;
+    float: left;
+    margin-right:9px;
+    padding: 10px;
+	cursor:pointer;
+}
+.menu li a{
+	text-shadow: 2px 1px #232323;
+	font-family: sans-serif;
+    font-size: 14px;
+	text-decoration:none;
+	color: #fff;
+}
+.menu ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.score_form {
+    float: left;
+    padding: 2%;
+    width: 96%;
+}
+
+.form_container {
+    background: none repeat scroll 0 0 rgba(0, 77, 255, 0.34);
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 374px;
+	padding:10px;
+}
+
+.form_container:last-child {
+    margin-right: 0;
+}
+
+.match_id {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.mth_label,.extr_label,.scores_label {
+    background: none repeat scroll 0 0 #bbbbbb;
+    color: #505050;
+    float: left;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 10px;
+	font-weight: bold;
+}
+
+.match_detail,.score_detail,.extra_container {
+    float: left;
+    width: 100%;
+}
+.extra_container{
+	 margin-top:20px;
+}
+.match_detail select {
+    float: left;
+    height: 40px;
+    padding: 0 10px;
+    width: 286px;
+    font-size:19px;
+}
+.get_match {
+    background: none repeat scroll 0 0 #4bcb4b;
+    border: 0 none;
+    border-radius: 5px;
+    box-shadow: 0 4px #21a121;
+    color: #ffffff;
+    float: left;
+    font-family: Tahoma;
+    margin-left: 25px;
+    padding: 9px;
+	cursor:pointer;
+}
+.toss_details,.status_details,.team_name,.teamscore_details,.wickets_details,.team_extra{
+    border: 0 none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    float: left;
+    font-size: 16px;
+    padding: 10px;
+}
+.toss_details{
+	width: 276px;
+}
+.status_details{
+    width: 276px;
+}
+
+.team_a,.team_b {
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+	font-family: sans-serif;
+    font-weight: bold;
+	background: #fff;
+	border-radius: 5px;
+}
+.team_name{
+    width: 180px;
+	border-right: 1px solid #919191;
+}
+.radio_inngs {
+    margin-top: 13px;
+}	
+.innings_details {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 5px;
+    float: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-right: 10px;
+}
+.innings_details .radio_inngs{
+	margin:12px;
+}
+.scorecard {
+     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+    float: left;
+    width: 100%;
+}
+.score_container {
+    margin: 0 auto;
+    width: 900px;
+}
+.score_container_bg {
+    float: left;
+    width: 100%;
+	padding-bottom:20px;
+}
+.teamscore_details,.wickets_details{
+	text-align: center;
+    width: 130px;
+}
+.score_div {
+    float: left;
+    padding: 20px 2% 0;
+    width: 46%;
+}
+.count_btn {
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 14px;
+    padding: 7px;
+	cursor:pointer;
+}
+.score_div.score_ryt {
+    float: right;
+    width: auto;
+}
+.team_extra{
+	width:40px;
+}
+.extr_label {
+     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 3px solid;
+    color: #ffffff;
+    padding: 10px 50px;
+    text-align: center;
+}
+.team_extr,.bowler_extr{
+	float:left;
+}
+.team_extr {
+    margin-right: 15px;
+}
+.score_circle {
+    margin: 20px auto 0;
+    width: 30%;
+}
+.scores_label{
+	padding: 10px 100px;
+	 background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 3px solid;
+    color: #ffffff;
+    text-align: center;
+}
+.count_circle_score {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.count_circle_score li {
+    background: none repeat scroll 0 0 #ffffff;
+    border-radius: 30px;
+    box-shadow: 1px 1px 3px 5px #cdcdcd inset;
+    color: #000000;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right:20px;
+    padding: 20px 25px;
+}
+.count_circle_score li:last-child {
+    margin-right: 0;
+	margin-left: 15px;
+}
+.count_circle_score > ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.count_circle_score {
+    width: 500px;
+	margin: 25px auto 0;
+}
+.save_btn {
+   
+background: none repeat scroll 0px 0px #4BCB4B;
+border: 0px none;
+border-radius: 10px;
+color: #FFF;
+cursor: pointer;
+float: right;
+font-family: Tahoma;
+margin-right: 15px;
+margin-top:0px;
+width: 75px;
+height: 40px;
+}
+.start_btn
+{
+background: none repeat scroll 0px 0px #4BCB4B;
+border: 0px none;
+border-radius: 10px;
+color: #FFF;
+cursor: pointer;
+float: right;
+font-family: Tahoma;
+margin-right: 15px;
+margin-top:15px;
+width: 120px;
+height: 40px;
+}
+.update_btn {
+   
+background: none repeat scroll 0px 0px #4BCB4B;
+border: 0px none;
+border-radius: 10px;
+color: #FFF;
+cursor: pointer;
+float: right;
+font-family: Tahoma;
+margin-right: 15px;
+margin-top: 0px;
+width: 70px;
+height: 60px;    
+}
+.end_inng_btn
+{
+    background: none repeat scroll 0px 0px #CB4B4B;
+    border: 0px none;
+    border-radius: 10px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: Tahoma;
+    margin-top: 12px;
+    width: 120px;
+    height: 40px;
+ 
+}
+.edt_tma{
+	padding: 10px 15px;
+}
+.edt_toss{
+	 padding: 10px 20px;
+}
+.edt_inns {
+    padding: 10px 31px;
+}
+
+.footer {
+    background: none repeat scroll 0 0 rgba(28, 139, 94, 0.28);
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+.copy_ryt {
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 29px 0 0;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
+.success {
+    background: none repeat scroll 0 0 rgba(105, 154, 0, 0.59);
+    color: #ffffff;
+    padding: 10px;
+    position: absolute;
+    right: 50px;
+	font-family: Tahoma;
+}
+.logo {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+}
+.logo img {
+    width: 12%;
+}
+#btn_li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+}
+.footer_logo {
+    float: left;
+    width: 100%;
+}
+.footer_logo img {
+    height: 120px;
+    width: 220px;
+}
+.error {
+    background: none repeat scroll 0 0 rgba(133, 34, 39, 0.59);
+    color: #ffffff;
+    padding: 10px;
+    position: absolute;
+    right: 50px;
+	font-family: Tahoma;;
+}
+.team_name_aslt{
+	float: left;
+    height: 40px;
+    padding: 0 10px;
+    width: 180px;
+}
+.hole_div {
+    float: left;
+    width: 100%;
+}
+
+/* media query */
+
+@media only screen and (max-width: 479px) {
+	.container{
+		width: 300px;
+	}
+	.logo img {
+		width: 25%;
+	}
+	
+	.menu ul li {
+		float: left;
+		margin: 0 auto 10px;
+		padding: 10px 0;
+		text-align: center;
+		width: 100%;
+	}
+	.match_detail select{
+		width:188px;
+	}
+	.get_match{
+		display:block;
+		width: 130px;
+		margin: 52px auto 0;
+		float:none;
+	}
+	.team_name_aslt{
+		width: 100px;
+	}
+	.toss_details{
+		width:179px;
+	}
+	.status_details {
+		width: 136px;
+	}
+	.score_container{
+		width:100%;
+	}
+	.score_div{
+		width:96%;
+		padding:2%;
+	}
+	.edt_dv1 .mth_label {
+		width: 90px;
+	}
+	.teamscore_details,.wickets_details{
+		width: 100px;
+	}
+	.extr_label{
+		width:100%;
+		padding:10px 0;
+	}
+	.edt_dv5 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.team_extr, .bowler_extr {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.team_extra {
+    width: 128px;
+}
+.edt_dv10 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.edt_dv9 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.scorecard{
+	border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.scores_label{
+	padding: 10px 0;
+	width: 98%;
+}
+.score_circle{
+	width:100%;
+}
+.count_circle_score {
+    width: 100%;
+	margin:0;
+}
+.count_circle_score li {
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 6px 12px;
+}
+
+.count_circle_score ul {
+    padding: 0 10px;
+}
+.count_circle_score li:last-child {
+	margin-left: 5px;
+}
+.save_btn{
+	padding: 8px;
+	margin-right: 5px;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.container{
+		width: 448px; /* */
+	}
+	
+	.logo img {
+		width: 25%;
+	}
+	
+	.menu ul li {
+		float: left;
+		margin: 0 2% 10px auto;
+		padding: 10px 0;
+		text-align: center;
+		width: 48%; /* */
+	}
+	.match_detail select{
+		 width: 177px;
+	}
+	.toss_details {
+    width: 315px;
+}
+.score_container{
+		width:100%;
+	}
+	.score_div{
+		width:96%;
+		padding:2%;
+	}
+	.edt_dv1 .mth_label {
+		width: 90px;
+	}
+	.teamscore_details, .wickets_details {
+    width: 240px;
+}
+	.extr_label{
+		width:100%;
+		padding:10px 0;
+	}
+	.edt_dv5 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.team_extr, .bowler_extr {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.team_extra {
+    width: 270px;
+}
+
+.edt_dv10 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.edt_dv9 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.scorecard{
+	border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.scores_label{
+	padding: 10px 0;
+	width: 98%;
+}
+.score_circle{
+	width:100%;
+}
+.count_circle_score {
+    width: 100%;
+	margin:0;
+}
+.count_circle_score li {
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 15px 20px;
+}
+
+.count_circle_score ul {
+    padding: 0 10px;
+}
+.count_circle_score li:last-child {
+	margin-left: 5px;
+}
+.save_btn{
+	padding: 8px;
+	margin-right: 5px;
+}
+.count_circle_score li:last-child {
+    margin-left: 20px;
+}
+.save_btn{
+	padding: 15px;
+}
+}
+@media only screen and (max-width: 767px){
+	.header {
+		padding: 0;
+		width: 100%;
+	}
+	.form_container {
+		padding: 4%;
+		width: 92%;
+		margin-bottom: 20px;
+	}
+	.score_form{
+		padding: 0;
+		width: 100%;
+	}
+	.menu{
+		width:100%;
+	}
+	.score_container{
+		width:100%;
+	}
+	.score_div{
+		width:96%;
+		padding:2%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+	.header {
+		padding: 0;
+		width: 100%;
+	}
+	.form_container {
+		padding: 4%;
+		width: 92%;
+		margin-bottom: 20px;
+	}
+	.score_form{
+		padding: 0;
+		width: 100%;
+	}
+	.menu{
+		width:100%;
+	}
+	.score_container{
+		width:100%;
+	}
+	.score_div{
+		width:96%;
+		padding:2%;
+	}
+	.container{
+		width: 747px; /* */
+	}
+	
+	.logo img {
+		width: 25%;
+	}
+	
+	.menu ul li {
+		float: left;
+		margin: 0 2% 10px auto;
+		padding: 10px 0;
+		text-align: center;
+		width: 48%; /* */
+	}
+	.match_detail select{
+		 width: 177px;
+	}
+	.toss_details {
+    width: 315px;
+}
+.score_container{
+		width:100%;
+	}
+	.score_div{
+		width:96%;
+		padding:2%;
+	}
+	.edt_dv1 .mth_label {
+		width: 90px;
+	}
+	.teamscore_details, .wickets_details {
+    width: 240px;
+}
+	.extr_label{
+		width:100%;
+		padding:10px 0;
+	}
+	.edt_dv5 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.team_extr, .bowler_extr {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.team_extra {
+    width: 270px;
+}
+
+.edt_dv10 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.edt_dv9 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.scorecard{
+	border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.scores_label{
+	padding: 10px 0;
+	width: 98%;
+}
+.score_circle{
+	width:100%;
+}
+.count_circle_score {
+    width: 100%;
+	margin:0;
+}
+.count_circle_score li {
+    margin-right: 25px;
+    margin-top: 15px;
+    padding: 20px 25px;
+}
+.count_circle_score ul {
+    padding: 0 10px;
+}
+.count_circle_score li:last-child {
+	margin-left: 5px;
+}
+.save_btn{
+	padding: 8px;
+	margin-right: 5px;
+}
+.count_circle_score li:last-child {
+    margin-left: 20px;
+}
+
+.save_btn {
+    padding: 20px;
+}
+.team_a, .team_b{
+	width:60%;
+	}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1279px) {
+	.header {
+		padding: 0;
+		width: 100%;
+	}
+	.form_container {
+		padding: 4%;
+		width: 92%;
+		margin-bottom: 20px;
+	}
+	.score_form{
+		padding: 0;
+		width: 100%;
+	}
+	.menu{
+		width:100%;
+	}
+	.score_container{
+		width:100%;
+	}
+	.score_div{
+		width:96%;
+		padding:2%;
+	}
+	.container{
+		width: 970px; /* */
+	}
+	
+	.logo img {
+		width: 25%;
+	}
+	
+	.menu ul li {
+		float: left;
+		margin: 0 2% 10px auto;
+		padding: 10px 0;
+		text-align: center;
+		width: 48%; /* */
+	}
+	.match_detail select{
+		 width: 177px;
+	}
+	.toss_details {
+    width: 315px;
+}
+.score_container{
+		width:100%;
+	}
+	.score_div {
+    padding: 2%;
+    width: 45%;
+}
+	.edt_dv1 .mth_label {
+		width: 90px;
+	}
+	.teamscore_details, .wickets_details {
+    width: 240px;
+}
+	.extr_label{
+		width:100%;
+		padding:10px 0;
+	}
+	.edt_dv5 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.team_extr, .bowler_extr {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.team_extra {
+    width: 270px;
+}
+
+.edt_dv10 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.edt_dv9 .mth_label {
+    text-align: center;
+    width: 62px;
+}
+.scorecard{
+	border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.scores_label{
+	padding: 10px 0;
+	width: 98%;
+}
+.score_circle{
+	width:100%;
+}
+.count_circle_score {
+    width: 100%;
+	margin:0;
+}
+.count_circle_score li {
+    margin-right: 25px;
+    margin-top: 15px;
+    padding: 20px 25px;
+}
+.count_circle_score ul {
+    padding: 0 10px;
+}
+.count_circle_score li:last-child {
+	margin-left: 5px;
+}
+.save_btn{
+	padding: 8px;
+	margin-right: 5px;
+}
+.count_circle_score li:last-child {
+    margin-left: 20px;
+}
+
+
+.save_btn {
+    padding: 20px;
+}
+.team_a, .team_b{
+	width:60%;
+	}
+	.edt_dv2 #team_scr_cnt {
+    width: 306px;
+}
+}
